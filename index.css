@@ -1,3 +1,30 @@
+body {
+  background-color: #f9f9fa;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
 .menu {
-  float: right;
+  margin: 0;
+  text-align: center;
+}
+
+#menuborder {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /*border-top: 2px solid #b29600;*/
+  border-bottom: 2px solid #b29600;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 10px;
 }
