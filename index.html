@@ -4,115 +4,103 @@
  <title>Samuel Adefioye</title>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
+
  <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="index.css" rel="stylesheet">
- <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- <script src="js/bootstrap.min.js"></script> -->
+ <link href="animate.css" rel="stylesheet">
+ <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
  <script type="text/javascript" src="typed.js/lib/typed.js"></script>
+ <script type="text/javascript" src="js/magicLine.js"></script>
 
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div id="typed-strings">
-      <h1>Samuel Adefioye</h1>
-  </div>
-  <span id="typed"></span>
-
-  <br>
-
-<span id="typing"></span>
-  <script type="text/javascript">
-   var typed = new Typed('#typed', {
-     stringsElement: '#typed-strings',
-     typeSpeed: 300,
-     backSpeed: 0,
-     //backDelay: 500
-   });
-   var typed2 = new Typed('#typing', {
-     strings: ["Web Developer", "Web Designer", "Graphic Designer"],
-     typeSpeed: 30,
-     loop: true,
-     backSpeed: 30,
-     //backDelay: 500
-   });
-  </script>
-
-
-
-  <!-- <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-
-
-<div class="container">
- <!-- <h1>My First <mark>Bootstrap</mark> Page</h1>
- <blockquote>
- <p>This is <abbr title="Some text">some<abbr> text.</p>
- <footer>Said by someone</footer>
- </blockquote>
- <dl>
-    <dt>Coffee</dt>
-    <dd>- black hot drink</dd>
-    <dt>Milk</dt>
-    <dd>- white cold drink</dd>
-  </dl>
-  <code>print("Hello World")</code>
-  <kbd>Ctrl + V</kbd>
-  <pre>
-Text in a pre element
-is displayed in a fixed-width
-font, and it preserves
-both      spaces and
-line breaks.
-</pre> -->
-
-<form>
- <!-- <div class="form-group">
-   <label for="email">Email address:</label>
-   <input type="email" class="form-control" id="email">
- </div>
- <div class="form-group">
-   <label for="pwd">Password:</label>
-   <input type="password" class="form-control" id="pwd">
- </div>
- <div class="checkbox">
-   <label><input type="checkbox"> Remember me</label>
- </div>
- <button type="submit" class="btn btn-default">Submit</button>
-</form> -->
+  <div id="window">
+ 	<div id="toolbar">
+		<div class="top">
+			<div id="lights">
+				<div class="light red">
+					<div class="glyph">×</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+				<div class="light yellow">
+					<div class="glyph">-</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+				<div class="light green">
+					<div class="glyph">+</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+			</div>
+			<div id="title">
+				<div class="folder">
+					<div class="tab"></div>
+					<div class="body"></div>
+				</div>
+				mysite — bash — ?
+			</div>
+			<div id="bubble">
+				<div class="shine"></div>
+				<div class="glow"></div>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<!-- <p> Last login: Thu May 24 12:18:16 on ttys006 <br />
+Doms-MacBook-Pro:flight dom$  </p> -->
+		<span>$<span>
+    <span id="typed"></span><br>
+    <span>$<span>
+    <span id="typing"></span>
+	</div>
 </div>
 
+<nav class="navbar navbar-default">
+  <div class="container animated fadeInRight">
+    <ul id="menu-main" class="nav navbar-nav navbar-center">
+      <!-- <li class="active"><a href="#">Home</a></li> -->
+      <!-- <li><a href="#">Home</a></li> -->
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script type="text/javascript">
+ var typed = new Typed('#typed', {
+   strings: [" Samuel Adefioye"],
+   loop: true,
+   typeSpeed: 200,
+   backSpeed: 0,
+   cursorChar: '_',
+   backDelay: 6020
+ });
+ var typed2 = new Typed('#typing', {
+   strings: [" Web Developer", " Web Designer", " Graphic Designer"],
+   startDelay: 3200,
+   typeSpeed: 30,
+   loop: true,
+   smartBackspace: false,
+   backSpeed: 50,
+   cursorChar: '_'
+   //backDelay: 500
+ });
+
+</script>
+
 </body>
+<footer class="footer">
+  <div class="container">
+    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+  </div>
+</footer>
 </html>
