@@ -3,10 +3,6 @@ body {
   font-family: 'Quicksand', sans-serif, 'Pacifico', cursive, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/*#menu-main {
-    border-bottom: 5px solid #ccc;
-}*/
-
 #magic-line {
     position: absolute; bottom: -5px; left: 0; width: 100px; height: 5px; background: #000;
 }
@@ -14,8 +10,6 @@ body {
 .navbar-nav>li>a:hover {
     background: none; color: #000;
 }
-
-
 
 .heading {
   text-align: center;
@@ -420,39 +414,6 @@ footer div {
 #body p, #body span{
    color: white!important;
 }
-/*#body span {
-  color: white;
-}*/
-
-/*@keyframes blink
-{
-	0%   {  background:rgba(99,222,0,100);  }
-	100% {  background:rgba(99,222,0,0);  }
-}
-
-@-webkit-keyframes blink {
-	0%   {  background:rgba(99,222,0,100);  }
-	100% {  background:rgba(99,222,0,0);  }
-}
-@-moz-keyframes blink {
-	0%   {  background:rgba(99,222,0,100);  }
-	100% {  background:rgba(99,222,0,0);  }
-}*/
-/*.cursor {
-  background:#63de00;
-  display:inline-block;
-  width:11px;
-  height:19px;
-  margin-bottom:-3px;
-}
-#body:hover .cursor {
-    -webkit-animation-name: blink;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-name: blink;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-iteration-count: infinite;
-}*/
 
 #body p::-webkit-selection  {
     background:#0b209e;
@@ -517,4 +478,11 @@ footer div {
 }
 .icon .folder{
     margin:15px 0 0 6px;
+}
+
+@media (max-width: 767px){
+  #window {
+    width: 100%;
+    border: thin solid red;
+  }
 }
