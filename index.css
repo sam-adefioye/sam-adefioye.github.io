@@ -480,9 +480,12 @@ footer div {
     margin:15px 0 0 6px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 500px){
   #window {
-    width: 100%;
+    width: 40%;
     border: thin solid red;
+  }
+  #body {
+    font-size: 25px;
   }
 }
