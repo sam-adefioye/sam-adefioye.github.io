@@ -493,9 +493,9 @@ footer div {
   }
 }
 
-@media (min-width: 320px) and (max-width: 359px){
+@media (min-width: 360px) and (max-width: 399px){
   #window {
-    min-width: 250px;
+    min-width: 300px;
   }
   #body {
     font-size: 15px;
@@ -513,15 +513,15 @@ footer div {
   }
 }
 
-@media (min-width: 360px) and (max-width: 399px){
+@media (min-width: 320px) and (max-width: 359px){
   #window {
-    min-width: 300px;
+    min-width: 250px;
   }
   #body {
     font-size: 15px;
   }
   #title {
-    font-size: 10px;
+    font-size: 9px;
     left: 20%;
   }
   .light{
