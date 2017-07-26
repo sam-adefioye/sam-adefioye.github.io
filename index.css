@@ -323,7 +323,7 @@ footer div {
     position: relative;
     top:4px;
     width:40%;
-    left: 30%;
+    left: 25%;
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
@@ -488,7 +488,7 @@ footer div {
     font-size: 20px;
   }
   #title {
-    font-size: 13px;
+    font-size: 10px;
     left: 20%;
   }
 }
@@ -522,7 +522,7 @@ footer div {
   }
   #title {
     font-size: 9px;
-    left: 20%;
+    left: 17%;
   }
   .light{
       width:10px;
