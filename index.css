@@ -491,6 +491,9 @@ footer div {
     font-size: 10px;
     left: 20%;
   }
+  .navbar {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 399px){
@@ -511,6 +514,9 @@ footer div {
   .folder {
     display: none;
   }
+  .navbar {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 359px){
@@ -530,5 +536,8 @@ footer div {
   }
   .folder {
     display: none;
+  }
+  .navbar {
+    font-size: 15px;
   }
 }
