@@ -484,6 +484,33 @@ footer div {
     margin:15px 0 0 6px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .navbar {
+    font-size: 24px;
+  }
+  .fa-twitter {
+    position:absolute;
+    left:40%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-envelope {
+    position:absolute;
+    left:60%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-linkedin-square {
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+}
+
 @media (min-width: 400px) and (max-width: 530px){
   #window {
     min-width: 350px;
