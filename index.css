@@ -521,7 +521,7 @@ footer div {
     color: #787878;
     text-decoration: none;
   }
-  .mobile-nav a:hover {
+  .mobile-nav a:active {
     color: #000;
   }
   #underline {
@@ -597,7 +597,7 @@ footer div {
     color: #787878;
     text-decoration: none;
   }
-  .mobile-nav a:hover {
+  .mobile-nav a:active {
     color: #000;
   }
   #underline {
@@ -673,7 +673,7 @@ footer div {
     color: #787878;
     text-decoration: none;
   }
-  .mobile-nav a:hover {
+  .mobile-nav a:active {
     color: #000;
   }
   #underline {
