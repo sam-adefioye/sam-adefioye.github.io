@@ -14,6 +14,7 @@
  <script src="js/bootstrap.min.js"></script>
  <script type="text/javascript" src="typed.js/lib/typed.js"></script>
  <script type="text/javascript" src="js/magicLine.js"></script>
+ <script type="text/javascript" src="js/click-jquery.js"></script>
 
 </head>
 <body>
@@ -66,23 +67,75 @@ Doms-MacBook-Pro:flight dom$  </p> -->
     <ul class="nav navbar-nav navbar-center">
       <!-- <li class="active"><a href="#">Home</a></li> -->
       <!-- <li><a href="#">Home</a></li> -->
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Who Am I?</a></li>
+      <li><a class="portfolio" href="#">Portfolio</a></li>
+      <li><a class="projects" href="#">Projects</a></li>
+      <li><a id="whoami" href="#">Who Am I?</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="mobile-nav">
   <ul>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Projects</a></li>
+    <li><a class="portfolio" href="#">Portfolio</a></li>
+    <li><a class="projects" href="#">Projects</a></li>
     <li><a href="#">Who Am I?</a></li>
   </ul>
 </div>
 
 <div id="underline"></div>
 
+<div id="port_box" style="display: none; margin: 50px;">
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-xs-4">
+    <div class="thumbnail">
+      <a href="https://app.box.com/s/7mpzhl463tw4hsaproc2vidk1ljsvau3" target="_blank">
+        <img src="images/VR Snap Filter-Final.jpg" alt="Vibe Rooms" width="200" height="200">
+        <div class="caption">
+          <p style="text-align:center;">Vibe Rooms</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="thumbnail">
+      <a href="http://exeteracs.co.uk" target="_blank">
+        <img src="images/ExeterACS.png" alt="Exeter ACS" width="600" height="600">
+        <div class="caption">
+          <p style="text-align:center;">Exeter African and Caribbean Society</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="thumbnail">
+      <a href="/w3images/fjords.jpg">
+        <img src="/w3images/fjords.jpg" alt="Geomatrix" width="200" height="200">
+        <div class="caption">
+          <p style="text-align:center;">Geomatrix</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div id="proj_box" style="display: none; margin: 50px;">
+  <div class="container-fluid">
+    <div class="row">
+      <h1 style="text-align:center;">Up to something...</h1>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" style="bottom: 10%;">
+  <div class="container">
+    <a href="https://twitter.com/samadfye" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/samuel-adefioye-a91b2643/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+    <a href="mailto:sam.adefioye@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+  </div>
+</footer>
 
 <script type="text/javascript">
  var typed = new Typed('#typed', {
@@ -103,15 +156,7 @@ Doms-MacBook-Pro:flight dom$  </p> -->
    cursorChar: '_'
    //backDelay: 500
  });
-
 </script>
 
 </body>
-<footer class="footer">
-  <div class="container">
-    <a href="https://twitter.com/s_adef" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/in/samuel-adefioye-a91b2643/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-    <a href="mailto:sam.adefioye@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-  </div>
-</footer>
 </html>
