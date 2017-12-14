@@ -487,15 +487,6 @@ footer div {
   .navbar {
     font-size: 24px;
   }
-  #port_box {
-    font-size: 24px;
-  }
-  #proj_box {
-    font-size: 24px;
-  }
-  #wai_box {
-    font-size: 24px;
-  }
   .fa-twitter {
     position:absolute;
     left:40%;
@@ -531,15 +522,6 @@ footer div {
     left: 20%;
   }
   .navbar {
-    font-size: 25px;
-  }
-  #port_box {
-    font-size: 25px;
-  }
-  #proj_box {
-    font-size: 25px;
-  }
-  #wai_box {
     font-size: 25px;
   }
   nav {
@@ -618,15 +600,6 @@ footer div {
   .navbar {
     font-size: 20px;
   }
-  #port_box {
-    font-size: 20px;
-  }
-  #proj_box {
-    font-size: 20px;
-  }
-  #wai_box {
-    font-size: 20px;
-  }
   nav {
     display: none;
   }
@@ -701,15 +674,6 @@ footer div {
     display: none;
   }
   .navbar {
-    font-size: 15px;
-  }
-  #port_box {
-    font-size: 15px;
-  }
-  #proj_box {
-    font-size: 15px;
-  }
-  #wai_box {
     font-size: 15px;
   }
   nav {
