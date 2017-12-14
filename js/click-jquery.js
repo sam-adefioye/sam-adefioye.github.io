@@ -4,7 +4,7 @@ $(function() {
   var port_box = $("#port_box");
   var proj = $(".projects");
   var proj_box = $("#proj_box");
-  var wai = $("#whoami");
+  var wai = $(".whoami");
   var wai_box = $("#whoami_box");
 
   port.click(function(){
