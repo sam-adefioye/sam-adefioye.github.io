@@ -18,13 +18,7 @@ body {
 
 #mainCard {
   background-color: #f9f9fa;
-  width: 60%;
-  border-radius: 10px;
-  margin-top: 50px;
   padding-bottom: 50px;
-  -webkit-box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
   animation: slide-up 0.7s;
   -webkit-animation: slide-up 0.7s;
   -moz-animation: slide-up 0.7s;
@@ -32,18 +26,15 @@ body {
 
 #aboutCard {
   background-color: #000;
-  width: 60%;
-  border-radius: 10px;
-  margin-top: 50px;
   padding-bottom: 50px;
-  -webkit-box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 78px -5px rgba(0,0,0,0.75);
   border: 5px solid #fff;
 }
 
 #portfolioCard {
   background-color: #f9f9fa;
+}
+
+.cards {
   width: 60%;
   border-radius: 10px;
   margin-top: 50px;
@@ -60,6 +51,7 @@ body {
   width: 80%;
   height: 100%;
   opacity: 0.7;
+  font-size: 25px;
   transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
@@ -76,18 +68,6 @@ body {
 
 .contacts {
   margin: 15px 0px;
-}
-
-#card-portfolio {
-
-}
-
-#card-about {
-
-}
-
-#card-contact {
-
 }
 
 #card-portfolio:hover, #card-about:hover, #card-contact:hover {
@@ -144,6 +124,34 @@ body {
 
 .fadeIn {
   animation: slide-up 1s;
+}
+
+.fa-twitter {
+  position:absolute;
+  left:42.5%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.fa-github {
+  position:absolute;
+  left:47.5%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.fa-linkedin {
+  position:absolute;
+  left:52.5%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.fa-envelope {
+  position:absolute;
+  left:57.5%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
 }
 
 @keyframes navHidden {
@@ -217,239 +225,99 @@ body {
     }
 }
 
-
-
-#magic-line {
-    position: absolute; bottom: -5px; left: 0; width: 100px; height: 5px; background: #000;
-}
-
-.navbar-nav>li>a:hover {
-    background: none; color: #000;
-}
-
-.heading {
-  text-align: center;
-  margin-top: 50px;
-  font-size: xx-large;
-  margin-bottom: 20px;
-}
-
-.navbar-nav.navbar-center {
-  position: absolute;
-  left: 50%;
-  -ms-transform: translatex(-50%);
-  -webkit-transform: translatex(-50%);
-  transform: translatex(-50%);
-}
-
-.navbar.navbar-default {
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: #fff;
-}
-
-.navbar {
-  font-size: 30px;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-nav {
-  margin-top: 150px;
-}
-
-footer {
-  position: absolute;
-  width: 100%;
-}
-
-footer div {
-  margin: auto;
-  /* background-color: #F6F6F6; */
-}
-
-.fa-twitter {
-  position:absolute;
-  left:42.5%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-}
-
-.fa-github {
-  position:absolute;
-  left:47.5%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-}
-
-.fa-linkedin {
-  position:absolute;
-  left:52.5%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-}
-
-.fa-envelope {
-  position:absolute;
-  left:57.5%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px){
-  .navbar {
-    font-size: 24px;
-  }
+@media (max-width: 992px){
   .fa-twitter {
     position:absolute;
-    left:40%;
+    left:41%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-github {
+    position:absolute;
+    left:47%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-linkedin {
+    position:absolute;
+    left:53%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
 
   .fa-envelope {
     position:absolute;
-    left:60%;
+    left:59%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
 
-  .fa-linkedin-square {
-    position:absolute;
-    left:50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
+  .cards {
+    width: 70%;
   }
-
 }
 
-@media (min-width: 400px) and (max-width: 530px){
-  #window {
-    min-width: 350px;
+@media (max-width: 768px){
+  .fa-twitter {
+    position:absolute;
+    left:38%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
   }
-  #body {
+
+  .fa-github {
+    position:absolute;
+    left:46%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-linkedin {
+    position:absolute;
+    left:54%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-envelope {
+    position:absolute;
+    left:62%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px){
+  .socialvisible {
+    margin-top: 80px;
+    padding-top: 60px;
+  }
+  .mc-options {
     font-size: 20px;
   }
-  #title {
-    font-size: 10px;
-    left: 20%;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    width: 75%;
-    display: block;
-    margin:0 auto;
-    margin-top: 75px;
-  }
-  .mobile-nav ul {
-    list-style-type: none;
-    display: block;
-    margin:0 auto;
-  }
-  .mobile-nav li {
-    float: left;
-    text-decoration: none;
-    margin: 10px;
-  }
-  .mobile-nav a {
-    color: #787878;
-    text-decoration: none;
-  }
-  .mobile-nav a:hover {
-    color: #000;
-  }
-  #underline {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 120px;
-    border: 2px solid #ccc;
-  }
-  .fa-twitter {
-    position:absolute;
-    left:35%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-  }
-
-  .fa-envelope {
-    position:absolute;
-    left:65%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-  }
-
-  .fa-linkedin-square {
-    position:absolute;
-    left:50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-  }
 }
 
-@media (min-width: 360px) and (max-width: 399px){
-  #window {
-    min-width: 300px;
-  }
-  #body {
-    font-size: 15px;
-  }
-  #title {
-    font-size: 10px;
-    left: 20%;
-  }
-  .light{
-      width:10px;
-      height:10px;
-  }
-  .folder {
+@media (min-width: 360px) and (max-width: 420px){
+  .toremove {
     display: none;
   }
-  .navbar {
-    font-size: 20px;
+  .socialvisible {
+    margin-top: 20px;
+    padding-top: 120px;
   }
-  nav {
-    display: none;
+  .mc-options p {
+    font-size: 13px;
   }
-  .mobile-nav {
-    width: 85%;
-    display: block;
-    margin:0 auto;
-    margin-top: 75px;
-  }
-  .mobile-nav ul {
-    list-style-type: none;
-    display: block;
-    margin:0 auto;
-  }
-  .mobile-nav li {
-    float: left;
-    text-decoration: none;
-    margin: 10px;
-  }
-  .mobile-nav a {
-    color: #787878;
-    text-decoration: none;
-  }
-  .mobile-nav a:hover {
-    color: #000;
-  }
-  #underline {
-    display: block;
-    margin: 0 auto;
+  .cards {
     width: 80%;
-    margin-top: 120px;
-    border: 2px solid #ccc;
   }
+
   .fa-twitter {
     position:absolute;
     left:35%;
@@ -457,78 +325,16 @@ footer div {
     -webkit-transform: translateX(-50%);
   }
 
-  .fa-envelope {
+  .fa-github {
     position:absolute;
-    left:65%;
+    left:45%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
 
-  .fa-linkedin-square {
+  .fa-linkedin {
     position:absolute;
-    left:50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-  }
-}
-
-@media (min-width: 320px) and (max-width: 359px){
-  #window {
-    min-width: 250px;
-  }
-  #body {
-    font-size: 15px;
-  }
-  #title {
-    font-size: 9px;
-    left: 17%;
-  }
-  .light{
-      width:10px;
-      height:10px;
-  }
-  .folder {
-    display: none;
-  }
-  .navbar {
-    font-size: 15px;
-  }
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    width: 97%;
-    display: block;
-    margin:0 auto;
-    margin-top: 75px;
-  }
-  .mobile-nav ul {
-    list-style-type: none;
-    display: block;
-    margin:0 auto;
-  }
-  .mobile-nav li {
-    float: left;
-    text-decoration: none;
-    margin: 10px;
-  }
-  .mobile-nav a {
-    color: #787878;
-    text-decoration: none;
-  }
-  .mobile-nav a:hover {
-    color: #000;
-  }
-  #underline {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 120px;
-    border: 2px solid #ccc;
-  }
-  .fa-twitter {
-    position:absolute;
-    left:35%;
+    left:55%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
@@ -536,13 +342,6 @@ footer div {
   .fa-envelope {
     position:absolute;
     left:65%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-  }
-
-  .fa-linkedin-square {
-    position:absolute;
-    left:50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
