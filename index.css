@@ -304,9 +304,6 @@ body {
 }
 
 @media (min-width: 360px) and (max-width: 420px){
-  .toremove {
-    display: none;
-  }
   .socialvisible {
     margin-top: 20px;
     padding-top: 120px;
@@ -346,3 +343,43 @@ body {
     -webkit-transform: translateX(-50%);
   }
 }
+
+@media (min-width: 320px) and (max-width: 359px){
+  .socialvisible {
+    margin-top: 20px;
+    padding-top: 120px;
+  }
+  .mc-options p {
+    font-size: 12px;
+  }
+  .cards {
+    width: 80%;
+  }
+
+  .fa-twitter {
+    position:absolute;
+    left:33%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-github {
+    position:absolute;
+    left:45%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-linkedin {
+    position:absolute;
+    left:57%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+
+  .fa-envelope {
+    position:absolute;
+    left:69%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
