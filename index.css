@@ -1,3 +1,52 @@
+.fa-7x.fa-twitter {
+  left: 28%;
+}
+
+.fa-7x.fa-github {
+  left: 43%;
+}
+
+.fa-7x.fa-linkedin {
+  left: 58%;
+}
+
+.fa-7x.fa-envelope {
+  left: 73%;
+}
+
+.fa-5x.fa-twitter, .fa-3x.fa-twitter {
+  left: 20%;
+}
+
+.fa-5x.fa-github, .fa-3x.fa-github {
+  left: 40%;
+}
+
+.fa-5x.fa-linkedin, .fa-3x.fa-linkedin {
+  left: 60%;
+}
+
+.fa-5x.fa-envelope, .fa-3x.fa-envelope {
+  left: 80%;
+}
+
+/* .fa-3x.fa-twitter {
+  left: 20%;
+}
+
+.fa-3x.fa-github {
+  left: 40%;
+}
+
+.fa-3x.fa-linkedin {
+  left: 60%;
+}
+
+.fa-3x.fa-envelope {
+  left: 80%;
+} */
+
+
 .aboutView {
   font-family: 'VT323', monospace;
   color: #fff;
@@ -49,7 +98,7 @@ body {
   border-radius: 5px;
   border: 3px solid #000;
   width: 80%;
-  height: 100%;
+  height: 75%;
   opacity: 0.7;
   font-size: 25px;
   transition: opacity 0.3s;
@@ -317,7 +366,7 @@ body {
 
   .fa-twitter {
     position:absolute;
-    left:35%;
+    left:33%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
@@ -331,14 +380,14 @@ body {
 
   .fa-linkedin {
     position:absolute;
-    left:55%;
+    left:57%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
 
   .fa-envelope {
     position:absolute;
-    left:65%;
+    left:69%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
   }
