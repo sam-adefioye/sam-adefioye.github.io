@@ -64,6 +64,8 @@ body {
 
 #portfolioCard {
   background-color: #f9f9fa;
+  overflow: auto;
+  padding-top: 1em;
 }
 
 .cards {
